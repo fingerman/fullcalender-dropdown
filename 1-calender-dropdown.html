@@ -9,7 +9,7 @@
     <script src='fullcalendar.js'></script>
 
 </head>
-<br>
+<body>
 <script>
     $(function() {
         // the list of the months
@@ -18,7 +18,7 @@
         // inizialize calendar and load properties. Hide the title in the left
         $('#calendar').fullCalendar({
             header: {
-                left: 'title'
+                left: 'title changeMonthButton'
             }
         });
 
@@ -50,25 +50,27 @@
 
 
 
+
 <div class="dropdown">
-    <button id="but" class="dropbtn">Dropdown</button>
+    <div id="curr-month">Current Month</div>
     <div class="dropdown-content">
         <ul id="months-list"></ul>
     </div>
 </div>
 
-<br>
-<br>
-<br>
 
 <div id='calendar'></div>
 
-
-
 <script>
     var date = moment().format('MMMM YYYY');
-    document.getElementById("but").innerHTML = date;
+    document.getElementById("curr-month").innerHTML = date;
 </script>
+
+
+
+
+
+
 
 
 
