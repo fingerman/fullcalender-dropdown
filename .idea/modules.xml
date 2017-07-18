@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/bootstrap-select-1.12.3/.idea/bootstrap-select-1.12.3.iml" filepath="$USER_HOME$/Downloads/bootstrap-select-1.12.3/.idea/bootstrap-select-1.12.3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fullcalender.iml" filepath="$PROJECT_DIR$/.idea/fullcalender.iml" />
     </modules>
   </component>

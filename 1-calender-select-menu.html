@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Fullcalender v2.6.0</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel='stylesheet' href='node_modules/bootstrap-select/dist/css/bootstrap-select.css'/>
     <link rel='stylesheet' href='fullcalendar.css' />
+    <link rel='stylesheet' href='lib/dist/semantic.css'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap-select/js/bootstrap-select.js"</script>
     <script src='lib/jquery.min.js'></script>
+    <script src='lib/dist/semantic.js'></script>
     <script src='lib/moment.min.js'></script>
     <script src='fullcalendar.js'></script>
 
 </head>
+
 <body>
-    <select id="months" class="ui dropdown" style="display: none;">
+
+    <select class="ui dropdown">
+        <option value="">Gender</option>
+        <option value="1">Male</option>
+        <option value="0">Female</option>
+    </select>
+
+    <br>
+    <br>
+
+<div class="box">
+    <h2 class="ui header">Kalender</h2>
+
+    <select id="months"  style="display: none;">
         <option value="1">Januar</option>
         <option value="2">Februar</option>
         <option value="3">März</option>
@@ -25,7 +46,9 @@
         <option value="12">Dezember</option>
     </select>
 
-    <div id='calendar'></div>
+    <div id='calendar' class="calendar"></div>
+</div>
+
 
     <script>
         $(function() {
@@ -35,13 +58,14 @@
             // inizialize calendar and load properties. Hide the title in the left
             $calendarElement.fullCalendar({
                 header: {
-                    left: 'prevYear,nextYear'
+                    left: ''
                 },
                 eventAfterAllRender: function(){
                     var date = $calendarElement.fullCalendar('getDate');
                     var month = date.month();
                     month ++;
 
+                    //select the current month in the dropdown menu
                     $months.val(month);
 
                     var $header = $calendarElement.find('.fc-left');
@@ -49,8 +73,9 @@
                     if (!($calendarElement.find("#months").length > 0)) {
                         $header.prepend('<span class="year">'+date.year()+'</span>');
                         $header.prepend($months);
-
                         $months.show();
+                        //$months.addClass("selectpicker");
+
                     } else {
                         $header.find('.year').text(date.year());
                     }
@@ -60,14 +85,23 @@
             $months.unbind('change').change(function(){
                 var $select = jQuery(this);
                 var newMonth = parseInt($select.val());
-                newMonth --;
-
+                newMonth--;
                 var date = $calendarElement.fullCalendar('getDate');
                 date.month(newMonth);
-
                 $calendarElement.fullCalendar('gotoDate', date);
             });
         });
     </script>
+<script>
+  //$('#months').addClass('selectpicker');
+</script>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
 </body>
 </html>
