@@ -19,19 +19,13 @@
 
 <body>
 
-    <select class="ui dropdown">
-        <option value="">Gender</option>
-        <option value="1">Male</option>
-        <option value="0">Female</option>
-    </select>
+
 
     <br>
     <br>
-
 <div class="box">
-    <h2 class="ui header">Kalender</h2>
-
-    <select id="months"  style="display: none;">
+    <div id="caret-down" class="caret down icon"></div>
+    <select id="months" tabindex="0" >
         <option value="1">Januar</option>
         <option value="2">Februar</option>
         <option value="3">März</option>
@@ -46,6 +40,9 @@
         <option value="12">Dezember</option>
     </select>
 
+
+
+    <h2 class="ui header">Kalender</h2>
     <div id='calendar' class="calendar"></div>
 </div>
 
@@ -58,7 +55,7 @@
             // inizialize calendar and load properties. Hide the title in the left
             $calendarElement.fullCalendar({
                 header: {
-                    left: ''
+                    left: 'prevYear,nextYear'
                 },
                 eventAfterAllRender: function(){
                     var date = $calendarElement.fullCalendar('getDate');
@@ -74,7 +71,8 @@
                         $header.prepend('<span class="year">'+date.year()+'</span>');
                         $header.prepend($months);
                         $months.show();
-                        //$months.addClass("selectpicker");
+
+
 
                     } else {
                         $header.find('.year').text(date.year());
@@ -90,6 +88,7 @@
                 date.month(newMonth);
                 $calendarElement.fullCalendar('gotoDate', date);
             });
+
         });
     </script>
 <script>
