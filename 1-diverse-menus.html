@@ -3,40 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Fullcalender v2.6.0</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel='stylesheet' href='node_modules/bootstrap-select/dist/css/bootstrap-select.css'/>
     <link rel='stylesheet' href='fullcalendar.css' />
     <link rel='stylesheet' href='lib/dist/semantic.css'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap-select/js/bootstrap-select.js"></script>
     <script src='lib/jquery.min.js'></script>
     <script src='lib/dist/semantic.js'></script>
     <script src='lib/moment.min.js'></script>
     <script src='fullcalendar.js'></script>
 
 </head>
-
 <body>
 
-    <br>
-    <br>
-
-<div class="ui selection dropdown">
-    <input type="hidden" name="gender">
-    <i class="dropdown icon"></i>
-    <div class="default text">Gender</div>
-    <div class="menu">
-        <div class="item" data-value="1">Male</div>
-        <div class="item" data-value="0">Female</div>
-    </div>
-</div>
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-<div class="box">
-    <select id="months" tabindex="0" >
+<br>
+<br>
+<select id="months" class="selectpicker">
+    <option value="1">Januar</option>
+    <option value="2">Februar</option>
+    <option value="3">März</option>
+    <option value="4">April</option>
+    <option value="5">Mai</option>
+    <option value="6">Juni</option>
+    <option value="7">Juli</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">Oktober</option>
+    <option value="11">November</option>
+    <option value="12">Dezember</option>
+</select>
+<br>
+<br>
+    <select id="month" tabindex="0" style="display: none" >
         <option value="1">Januar</option>
         <option value="2">Februar</option>
         <option value="3">März</option>
@@ -84,13 +84,15 @@
                     $header.prepend($months);
                     $months.show();
 
+
+
                 } else {
                     $header.find('.year').text(date.year());
                 }
             }
         });
 
-        $months.off('change').change(function(){
+        $months.unbind('change').change(function(){
             var $select = jQuery(this);
             var newMonth = parseInt($select.val());
             newMonth--;
@@ -99,16 +101,13 @@
             $calendarElement.fullCalendar('gotoDate', date);
 
 
-
-
-
-
-
         });
+
     });
 </script>
 <script>
-    //$('#months').addClass('selectpicker');
+    var printAttr = $('.dropdown-menu').attr("data-original-index");
+    console.log(printAttr);
 </script>
 
 <br>
