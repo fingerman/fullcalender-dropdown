@@ -20,101 +20,41 @@
 
 <br>
 <br>
-<select id="months" class="selectpicker">
-    <option value="1">Januar</option>
-    <option value="2">Februar</option>
-    <option value="3">März</option>
-    <option value="4">April</option>
-    <option value="5">Mai</option>
-    <option value="6">Juni</option>
-    <option value="7">Juli</option>
-    <option value="8">August</option>
-    <option value="9">September</option>
-    <option value="10">Oktober</option>
-    <option value="11">November</option>
-    <option value="12">Dezember</option>
+<select class="selectpicker" title="bootstrap select picker">
+    <option>Mustard</option>
+    <option>Ketchup</option>
+    <option>Relish</option>
 </select>
 <br>
 <br>
-    <select id="month" tabindex="0" style="display: none" >
-        <option value="1">Januar</option>
-        <option value="2">Februar</option>
-        <option value="3">März</option>
-        <option value="4">April</option>
-        <option value="5">Mai</option>
-        <option value="6">Juni</option>
-        <option value="7">Juli</option>
-        <option value="8">August</option>
-        <option value="9">September</option>
-        <option value="10">Oktober</option>
-        <option value="11">November</option>
-        <option value="12">Dezember</option>
-    </select>
 
-    <h2 class="ui header">Kalender</h2>
-    <div class="ui segment">
-        <i id="caret-down" class="dropdown icon"></i>
-        <div id="calendar" class="calendar"></div>
+<p>drauf sind es auch andere sachen</p>
+<select class="ui dropdown selection">
+    <option class="optionFont" value="">Gender</option>
+    <option class="optionFont" value="1">Male</option>
+    <option  value="0">Female</option>
+</select>
+<p>hier sind andere elemente</p>
+<br>
+<br>
+<br>
+
+
+<p>drauf sind es auch andere sachen</p>
+<div class="ui selection dropdown">
+    <input type="hidden" name="gender">
+    <i class="dropdown icon"></i>
+    <div class="default text">Gender</div>
+    <div class="menu">
+        <div class="item" data-value="1">Male</div>
+        <div class="item" data-value="0">Female</div>
     </div>
 </div>
-
-
-<script>
-    $(function() {
-        var $calendarElement = $('#calendar');
-        var $months = jQuery('#months');
-
-        // inizialize calendar and load properties. Hide the title in the left
-        $calendarElement.fullCalendar({
-            header: {
-                left: 'prevYear,nextYear'
-            },
-            eventAfterAllRender: function(){
-                var date = $calendarElement.fullCalendar('getDate');
-                var month = date.month();
-                month ++;
-
-                //select the current month in the dropdown menu
-                $months.val(month);
-
-                var $header = $calendarElement.find('.fc-left');
-
-                if (!($calendarElement.find("#months").length > 0)) {
-                    $header.prepend('<span class="year">'+date.year()+'</span>');
-                    $header.prepend($months);
-                    $months.show();
+<p>hier sind andere elemente</p>
 
 
 
-                } else {
-                    $header.find('.year').text(date.year());
-                }
-            }
-        });
 
-        $months.unbind('change').change(function(){
-            var $select = jQuery(this);
-            var newMonth = parseInt($select.val());
-            newMonth--;
-            var date = $calendarElement.fullCalendar('getDate');
-            date.month(newMonth);
-            $calendarElement.fullCalendar('gotoDate', date);
-
-
-        });
-
-    });
-</script>
-<script>
-    var printAttr = $('.dropdown-menu').attr("data-original-index");
-    console.log(printAttr);
-</script>
-
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
 </body>
