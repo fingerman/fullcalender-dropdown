@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fullcalender v2.6.0</title>
+    <link rel='stylesheet' href='fullcalendar.css'/>
+    <link rel='stylesheet' href='lib/dist/semantic-original.css'/>
+    <script src='lib/jquery.min.js'></script>
+    <script src='lib/dist/semantic.js'></script>
+    <script src='lib/moment.min.js'></script>
+    <script src='fullcalendar.js'></script>
+
+</head>
+
+<body>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="box">
+    <select id="months" class="selection" style="display: none">
+        <option value="1">Januar</option>
+        <option value="2">Februar</option>
+        <option value="3">März</option>
+        <option value="4">April</option>
+        <option value="5">Mai</option>
+        <option value="6">Juni</option>
+        <option value="7">Juli</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">Oktober</option>
+        <option value="11">November</option>
+        <option value="12">Dezember</option>
+    </select>
+    <h2 class="ui header">Kalender</h2>
+</div>
+<div class="ui segment">
+    <div id="calendar" class="calendar"></div>
+</div>
+
+
+<script>
+    $(function () {
+        var $calendarElement = $('#calendar');
+        var $months = jQuery('.selection');
+
+
+        // inizialize calendar and load properties. Hide the title in the left
+        $calendarElement.fullCalendar({
+            header: {
+                left: 'prevYear,nextYear'
+            },
+            eventAfterAllRender: function () {
+                var date = $calendarElement.fullCalendar('getDate');
+                var month = date.month();
+                month++;
+                $months.val(month); //select the current month in the dropdown menu
+
+
+                var $header = $calendarElement.find('.fc-left');
+
+                if (!($calendarElement.find("#months").length > 0)) {
+                    $header.prepend('<span class="year">' + date.year() + '</span>');
+                    $header.prepend($months);
+                    $months.dropdown();
+
+                } else {
+                    $header.find('.year').text(date.year());
+                    $months.dropdown('set selected', month);
+                }
+
+                $months.unbind('change').change(function () {
+                    var $select = jQuery(this);
+                    var newMonth = $select.val();
+                    newMonth--;
+                    var date = $calendarElement.fullCalendar('getDate');
+                    date.month(newMonth);
+                    $calendarElement.fullCalendar('gotoDate', date);
+
+                });
+            },
+        });
+    });
+
+</script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+</html>

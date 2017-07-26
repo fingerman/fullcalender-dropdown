@@ -16,18 +16,6 @@
 
     <br>
     <br>
-
-<div class="ui selection dropdown">
-    <input type="hidden" name="gender">
-    <i class="dropdown icon"></i>
-    <div class="default text">Gender</div>
-    <div class="menu">
-        <div class="item" data-value="1">Male</div>
-        <div class="item" data-value="0">Female</div>
-    </div>
-</div>
-
-
     <br>
     <br>
     <br>
@@ -36,7 +24,7 @@
 
 
 <div class="box">
-    <select id="months" tabindex="0" >
+    <select id="months" tabindex="0">
         <option value="1">Januar</option>
         <option value="2">Februar</option>
         <option value="3">März</option>
@@ -73,7 +61,6 @@
                 var date = $calendarElement.fullCalendar('getDate');
                 var month = date.month();
                 month ++;
-
                 //select the current month in the dropdown menu
                 $months.val(month);
 
@@ -82,7 +69,7 @@
                 if (!($calendarElement.find("#months").length > 0)) {
                     $header.prepend('<span class="year">'+date.year()+'</span>');
                     $header.prepend($months);
-                    $months.show();
+                    //$months.show();
 
                 } else {
                     $header.find('.year').text(date.year());
@@ -97,19 +84,10 @@
             var date = $calendarElement.fullCalendar('getDate');
             date.month(newMonth);
             $calendarElement.fullCalendar('gotoDate', date);
-
-
-
-
-
-
-
         });
     });
 </script>
-<script>
-    //$('#months').addClass('selectpicker');
-</script>
+
 
 <br>
 <br>
