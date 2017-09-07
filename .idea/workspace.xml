@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c5e49c-c983-4bc3-829e-fa07bc432050" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1-diverse-menus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2-calender-dropdown.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1-calender-bootstrap-select.html" afterPath="$PROJECT_DIR$/fullcalendar-bootstrap-select.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1-calender-select-menu.html" afterPath="$PROJECT_DIR$/fullalendar-select-menu.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1-calender-semantic-ui.html" afterPath="$PROJECT_DIR$/fullalendar-semantic-ui.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/2-calender.html" afterPath="$PROJECT_DIR$/fullalender-div-button.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-calender-bootstrap-select.html" afterPath="$PROJECT_DIR$/1-calender-bootstrap-select.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-calender-select-menu.html" afterPath="$PROJECT_DIR$/1-calender-select-menu.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,44 +20,50 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-calender-semantic-ui.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-calender-semantic-ui.html">
+      <file leaf-file-name="fullalendar-semantic-ui.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fullalendar-semantic-ui.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#select#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-240">
+              <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-calender-bootstrap-select.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-calender-bootstrap-select.html">
+      <file leaf-file-name="fullalender-div-button.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fullalender-div-button.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" column="41" lean-forward="false" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="20">
+              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-calender-select-menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-calender-select-menu.html">
+      <file leaf-file-name="fullcalendar-bootstrap-select.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fullcalendar-bootstrap-select.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
+            <state relative-caret-position="180">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullalendar-select-menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fullalendar-select-menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
               <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="semantic-original.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="semantic-original.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/dist/semantic-original.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="600820">
               <caret line="30041" column="0" lean-forward="false" selection-start-line="30041" selection-start-column="0" selection-end-line="30054" selection-end-column="33" />
               <folding />
             </state>
@@ -109,9 +119,10 @@
         <option value="$PROJECT_DIR$/lib/dist/semantic.min.css" />
         <option value="$PROJECT_DIR$/lib/dist/semantic.css" />
         <option value="$PROJECT_DIR$/1-calender-select-menu.html" />
-        <option value="$PROJECT_DIR$/1-calender-bootstrap-select.html" />
         <option value="$PROJECT_DIR$/lib/dist/semantic-original.css" />
         <option value="$PROJECT_DIR$/1-calender-semantic-ui.html" />
+        <option value="$PROJECT_DIR$/2-calender-div.html" />
+        <option value="$PROJECT_DIR$/1-calender-bootstrap-select.html" />
       </list>
     </option>
   </component>
@@ -126,10 +137,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="3832" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1370" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -149,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,40 +172,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullcalender-dropdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullcalender-dropdown" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullcalender-dropdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullcalender-dropdown" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,6 +319,8 @@
       <workItem from="1500981293128" duration="16639000" />
       <workItem from="1501052597823" duration="25549000" />
       <workItem from="1501085575794" duration="408000" />
+      <workItem from="1502194819146" duration="1033000" />
+      <workItem from="1504772259178" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="fullcalender with dropdown months dropdown menu">
       <created>1499717316491</created>
@@ -380,19 +361,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165965000" />
+    <option name="totallyTimeSpent" value="167565000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2196162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22671756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27302274" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4844517" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -441,7 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-calender-select-menu.html">
+    <entry file="file://$PROJECT_DIR$/fullalendar-select-menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -498,7 +479,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-calender.html">
+    <entry file="file://$PROJECT_DIR$/fullalender-div-button.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
@@ -526,7 +507,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-calender.html">
+    <entry file="file://$PROJECT_DIR$/fullalender-div-button.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1340">
           <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
@@ -554,7 +535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-calender.html">
+    <entry file="file://$PROJECT_DIR$/fullalender-div-button.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1340">
           <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
@@ -582,7 +563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-calender.html">
+    <entry file="file://$PROJECT_DIR$/fullalender-div-button.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
@@ -686,13 +667,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/bootstrap-select-1.12.3/bootstrap-select-1.12.3/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1775">
-          <caret line="165" column="33" lean-forward="true" selection-start-line="165" selection-start-column="33" selection-end-line="165" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bootstrap-select-1.12.3/bootstrap-select-1.12.3/test.html" />
     <entry file="file://$PROJECT_DIR$/lib/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -714,13 +689,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-diverse-menus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-diverse-menus.html" />
     <entry file="file://$PROJECT_DIR$/lib/dist/semantic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -728,52 +697,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-calender-dropdown.html">
+    <entry file="file://$PROJECT_DIR$/lib/dist/semantic-original.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="70" lean-forward="false" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        <state relative-caret-position="600820">
+          <caret line="30041" column="0" lean-forward="false" selection-start-line="30041" selection-start-column="0" selection-end-line="30054" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-calender.html">
+    <entry file="file://$PROJECT_DIR$/2-calender-dropdown.html" />
+    <entry file="file://$PROJECT_DIR$/fullalender-div-button.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-calender-bootstrap-select.html">
+    <entry file="file://$PROJECT_DIR$/fullalendar-select-menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="41" lean-forward="false" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-calender-select-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="20">
           <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-calender-semantic-ui.html">
+    <entry file="file://$PROJECT_DIR$/fullcalendar-bootstrap-select.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dist/semantic-original.css">
+    <entry file="file://$PROJECT_DIR$/fullalendar-semantic-ui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30041" column="0" lean-forward="false" selection-start-line="30041" selection-start-column="0" selection-end-line="30054" selection-end-column="33" />
+        <state relative-caret-position="-240">
+          <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
           <folding />
         </state>
       </provider>
