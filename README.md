@@ -12,9 +12,9 @@ My implementation is not based on v2.6, however it should work for the very late
 
 So you see the implementations in the html files:
 
-fullcalender-select-menu:  basic select menu with some css added.
-fullcalender-semantic-ui:  the dropdown menu is based on the semantic ui library
-fullcalender-bootstrap-select: the dropdown menu is based on the bootstrap select library
-fullcalender-div-button: button as div element to pick up the months. It is still has not all functionalities
+fullcalender-select-menu:  basic select menu with some css added.  
+fullcalender-semantic-ui:  the dropdown menu is based on the semantic ui library  
+fullcalender-bootstrap-select: the dropdown menu is based on the bootstrap select library  
+fullcalender-div-button: button as div element to pick up the months. It is still has not all functionalities  
 
 For all dependancies just download the repo. 
