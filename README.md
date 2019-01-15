@@ -1,9 +1,6 @@
-# fullcalendar-dropdown
+# fullcalendar-dropdown    
 js fullcalendar with dropdown menu to pick up a month
-
-
-# fullcalendar-dropdown
-js fullcalendar with dropdown menu to pick up a month
+----------------
 
 
 Here I provide basically four ways to implement a dropdown menu into the 
@@ -11,10 +8,10 @@ Here I provide basically four ways to implement a dropdown menu into the
 My implementation is not based on v2.6, however it should work for the very latest and also previous versions. 
 
 So you see the implementations in the html files:
-
-fullcalendar-select-menu:  basic select menu with some css added.  
-fullcalendar-semantic-ui:  the dropdown menu is based on the semantic ui library  
-fullcalendar-bootstrap-select: the dropdown menu is based on the bootstrap select library  
-fullcalendar-div-button: button as div element to pick up the months. It is still has not all functionalities  
+[a relative link](other_file.md)
+##### 1. [fullcalendar-select-menu:](fullcalendar-select-menu.html)  basic select menu with some css added.  
+##### 2. [fullcalendar-semantic-ui:](fullcalendar-select-semantic-ui.html)  the dropdown menu is based on the semantic ui library  
+##### 3. [fullcalendar-bootstrap-select:](fullcalendar-bootstrap-select.html)the dropdown menu is based on the bootstrap select library  
+##### 4. [fullcalendar-div-button:](fullcalendar-div-button.html) button as div element to pick up the months. 
 
 For all dependancies just download the repo. 
